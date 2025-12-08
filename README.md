@@ -1,1 +1,1 @@
-# holbertonschool-binary_trees
+Binary Trees Project - Holberton School
