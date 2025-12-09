@@ -79,14 +79,14 @@ TASK Number - 10 -
 
 
 __________________________________________________________________________________________________________________________________________________
-TASK Number - 11 - 
+TASK Number - 11 - 11-binary_tree_size.c
 ===============================================
  - Prototype Used:size_t binary_tree_size(const binary_tree_t *tree);
  - Output Value: Measuring the size of the binary tree created
 
 
 __________________________________________________________________________________________________________________________________________________
-TASK Number - 12 - 
+TASK Number - 12 - 12-binary_tree_leaves.c
 ===============================================
  - Prototype Used: size_t binary_tree_leaves(const binary_tree_t *tree);
  - Output Value: Write a function that counts the leaves in a binary tree
@@ -94,17 +94,17 @@ TASK Number - 12 -
 
 
 __________________________________________________________________________________________________________________________________________________
-TASK Number - 13- 
+TASK Number - 13 - 13-binary_tree_nodes.c
 ===============================================
- - Prototype Used:
- - Output Value:
+ - Prototype Used: size_t binary_tree_nodes(const binary_tree_t *tree);
+ - Output Value: Write a function that counts the nodes with at least 1 child in a binary tree
 
 
 __________________________________________________________________________________________________________________________________________________
-TASK Number - 14 - 
+TASK Number - 14 - 14-binary_tree_balance.c
 ===============================================
- - Prototype Used:
- - Output Value:
+ - Prototype Used: int binary_tree_balance(const binary_tree_t *tree);
+ - Output Value: Write a function that measures the balance factor of a binary tree
 
 
 __________________________________________________________________________________________________________________________________________________
