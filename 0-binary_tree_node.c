@@ -5,6 +5,9 @@
  * @parent: Pointer to the parent node
  * @value: Value to put in the new node
  *
+ * the function allocates memory for a new binary tree node
+ *1-sets value 2- links to parent 3- init both child pointer to NULL
+ *if memorry allic fails -> NULL
  * Return: Pointer to the new node, or NULL on failure
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
