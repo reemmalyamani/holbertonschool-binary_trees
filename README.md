@@ -88,8 +88,8 @@ TASK Number - 11 -
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 12 - 
 ===============================================
- - Prototype Used:
- - Output Value:
+ - Prototype Used: size_t binary_tree_leaves(const binary_tree_t *tree);
+ - Output Value: Write a function that counts the leaves in a binary tree
 
 
 
