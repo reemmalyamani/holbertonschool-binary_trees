@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
                                                                              # Project Title: Binary Tree
 
                                                                 This project was done by Mariam Backroush, Reem Alyamani
@@ -37,16 +37,7 @@ height, size, balance factor, check if a tree is full or perfect, and more.
 TASK Number - 0 - 0-binary_tree_node.c:
 
  - Prototype Used: binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
- - Output Value: Write a function that creates a binary tree node, the function returns a pointer to a new node or NULL on failure.
-
-
-__________________________________________________________________________________________________________________________________________________
-TASK Number - 0 - 0-binary_tree_node.c:
-
-
- - Prototype Used: binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
- - Output Value: Write a function that creates a binary tree node, the function returns a pointer to a new node or NULL on failure.
-
+ - Output Value: Write a function that creates a binary tree node, the function returns a pointer to a new node or NULL on failure
 
 
 __________________________________________________________________________________________________________________________________________________
