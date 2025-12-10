@@ -45,7 +45,7 @@ TASK Number - 1 - 1-binary_tree_insert_left.c:
 
 
  - Prototype Used: binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
- - Output Value:
+ - Output Value: pointer to the created node, NULL if parent is NULL or on failure
 
 
 __________________________________________________________________________________________________________________________________________________
@@ -53,7 +53,7 @@ TASK Number - 2 - 2-binary_tree_insert_right.c:
 
 
  - Prototype Used: binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
- - Output Value:
+ - Output Value: same as task #1
 
 
 __________________________________________________________________________________________________________________________________________________
@@ -61,7 +61,7 @@ TASK Number - 3 - 3-binary_tree_delete.c:
 
 
  - Prototype Used: void binary_tree_delete(binary_tree_t *tree);
- - Output Value:
+ - Output Value: deletes the entire binary tree, if NULL do nothing
 
 
 __________________________________________________________________________________________________________________________________________________
@@ -69,54 +69,54 @@ TASK Number - 4 - 4-binary_tree_is_leaf.c
 
 
  - Prototype Used: int binary_tree_is_leaf(const binary_tree_t *node);
- - Output Value:
+ - Output Value: return 1 if node is leaf, otherwise 0
 
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 5 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used: int binary_tree_is_root(const binary_tree_t *node);
+ - Output Value: 1 if node is root otherwise 0
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 6 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used:void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+ - Output Value:  pre order traversal 
 
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 7 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used: void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+ - Output Value: In order traversal
 
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 8 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used: void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+ - Output Value: Post order traversal
 
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 9 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used: size_t binary_tree_height(const binary_tree_t *tree);
+ - Output Value: Height of tree, else return 0
 
 
 __________________________________________________________________________________________________________________________________________________
 TASK Number - 10 - 
 
 
- - Prototype Used:
- - Output Value:
+ - Prototype Used:size_t binary_tree_depth(const binary_tree_t *tree); 
+ - Output Value: Depth of tree, else return 0
 
 
 __________________________________________________________________________________________________________________________________________________
